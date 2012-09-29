@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["face.do.123@gmail.com"]
   gem.description   = %q{easy show loading view}
   gem.summary       = %q{easy show loading view}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/face-do/motion-loadingview"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
