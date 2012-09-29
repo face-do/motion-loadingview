@@ -1,6 +1,7 @@
 # Motion::Loadingview
 
-TODO: Write a gem description
+for rubymotion
+easy loading view adding to controller
 
 ## Installation
 
@@ -17,8 +18,20 @@ Or install it yourself as:
     $ gem install motion-loadingview
 
 ## Usage
+include this library at controller and use
 
-TODO: Write usage instructions here
+```ruby:root_view_controller.rb
+class RootViewController < UIViewController
+  include Motion::Loadingview
+
+  def viewDidLoad
+    set_loading_view
+  end
+end
+```
+when removing loading_view
+
+use 'remove_loading_view'
 
 ## Contributing
 
